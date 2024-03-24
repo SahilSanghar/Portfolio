@@ -8,15 +8,21 @@ return (
     <div className='app__social'>
         
         <div>
-            <FiGithub />
+            <a href="https://github.com/SahilSanghar" target='blank'>
+                <FiGithub />
+            </a>
         </div>
 
         <div>
-            <BsInstagram />
+            <a href="https://www.instagram.com/thats.__.sahil/" target='blank'>
+                <BsInstagram />
+            </a>
         </div>
 
         <div>
-            <FaLinkedinIn />
+            <a href="https://www.linkedin.com/in/sahilsanghar/" target='blank'>
+                <FaLinkedinIn />
+            </a>
         </div>
     </div>
 )
