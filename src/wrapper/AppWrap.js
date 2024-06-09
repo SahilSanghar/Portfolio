@@ -10,7 +10,7 @@ return (
             <Component />
 
             <div className='copyright'>
-                <p className='p-text'>@2024 SAHIL</p>
+                <p className='p-text'>&copy;2024 SAHIL</p>
                 <p className='p-text'>All rights reserved</p>
             </div>
         </div>
