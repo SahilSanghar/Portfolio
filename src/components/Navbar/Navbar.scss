@@ -4,10 +4,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: rgba(255, 255, 255, 0.2);
+    background: #1C1C1C;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
     position: fixed;
     z-index: 2;
 }
@@ -49,7 +48,8 @@
         }
 
         a {
-            color: var(--gray-color);
+            color: #fff;
+            opacity: 0.9;
             text-decoration: none;
             flex-direction: column;
             text-transform: uppercase;
