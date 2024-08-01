@@ -75,7 +75,7 @@ export const navItems = [
         des: "Hotel Booking Website",
         img: "/p1.png",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "https://wanderlust-pf8r.onrender.com/listings",
+        href: "https://wanderlust-pf8r.onrender.com/listings",
     },
     {
         id: 2,
@@ -83,24 +83,24 @@ export const navItems = [
         des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
         img: "/p2.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "/ui.yoom.com",
+        href: "https://gym-management-zeta.vercel.app/",
     },
-    {
-        id: 3,
-        title: "Gold's Gym",
-        des: "Gym Management.",
-        img: "/p3.png",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "/ui.aiimg.com",
-    },
-    {
-        id: 4,
-        title: "ZeeCare",
-        des: "Hospital Operation Scheduler.",
-        img: "/p4.png",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "/ui.apple.com",
-    },
+    // {
+    //     id: 3,
+    //     title: "Gold's Gym",
+    //     des: "Gym Management.",
+    //     img: "/p3.png",
+    //     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    //     link: "/ui.aiimg.com",
+    // },
+    // {
+    //     id: 4,
+    //     title: "ZeeCare",
+    //     des: "Hospital Operation Scheduler.",
+    //     img: "/p4.png",
+    //     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    //     link: "/ui.apple.com",
+    // },
 ];
 
     export const testimonials = [
