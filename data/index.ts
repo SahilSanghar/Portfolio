@@ -83,7 +83,7 @@ export const navItems = [
         des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
         img: "/p2.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        href: "https://gym-management-zeta.vercel.app/",
+        href: "https://meet-point.vercel.app",
     },
     // {
     //     id: 3,
