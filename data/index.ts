@@ -85,22 +85,22 @@ export const navItems = [
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
         href: "https://meet-point.vercel.app",
     },
-    // {
-    //     id: 3,
-    //     title: "Gold's Gym",
-    //     des: "Gym Management.",
-    //     img: "/p3.png",
-    //     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    //     link: "/ui.aiimg.com",
-    // },
-    // {
-    //     id: 4,
-    //     title: "ZeeCare",
-    //     des: "Hospital Operation Scheduler.",
-    //     img: "/p4.png",
-    //     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    //     link: "/ui.apple.com",
-    // },
+    {
+        id: 3,
+        title: "Tetris Game",
+        des: "Puzzle Game.",
+        img: "/p3.jpeg",
+        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+        href: "https://tetris-game-theta.vercel.app",
+    },
+    {
+        id: 4,
+        title: "ZeeCare",
+        des: "Hospital Operation Scheduler.",
+        img: "/p4.png",
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        href: "https://hospital-operation-management.vercel.app",
+    },
 ];
 
     export const testimonials = [
