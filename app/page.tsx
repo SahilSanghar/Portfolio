@@ -5,6 +5,9 @@ import { FaHome } from 'react-icons/fa';
 import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import './globals.css';
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
@@ -23,6 +26,7 @@ export default function Home() {
         <Approach />
         <Footer />
       </div>
+      <ToastContainer />
     </main>
   );
 }

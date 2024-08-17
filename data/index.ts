@@ -118,6 +118,13 @@ export const navItems = [
         title: "Director of Chase Pay",
         profile: "/profile2.png"
     },
+    {
+        quote:
+        "Sahil is an exceptional web app developer with a keen eye for detail and outstanding communication skills. He consistently delivers high-quality work with impressive speed and efficiency, ensuring every aspect of the project is executed to perfection. Working with Sahil has been a seamless experience, and I look forward to collaborating with him again on future projects.",
+        name: "Javier Martinez",
+        title: "Founder of LigasCorp",
+        profile: "/profile3.png"
+    },
 ];
 
     export const companies = [
