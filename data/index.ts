@@ -125,9 +125,16 @@ export const navItems = [
         title: "Founder of LigasCorp",
         profile: "/profile3.png"
     },
+    {
+        quote:
+        "Working with Sahil on Vernsense website was a fantastic experience. He delivered a sleek, user-friendly design that exceeded our expectations. The attention to detail and technical expertise were evident throughout the project. I highly recommend Sahil for anyone seeking top-notch web development and design services",
+        name: "Rohit Gupta",
+        title: "Founder of VernSense AI",
+        profile: "/profile4.jpeg"
+    },
 ];
 
-    export const companies = [
+export const companies = [
     {
         id: 1,
         name: "PaceDream",
@@ -136,18 +143,36 @@ export const navItems = [
     },
     {
         id: 2,
-        name: "Chase Pay",
-        img: "/Chasepay.png",
-        company: "Chasepay",
+        name: "VernSense",
+        img: "/VernSense.png",
+        company: "VernSense AI",
     },
     {
         id: 3,
+        name: "Ligas Corporation",
+        img: "/Ligas.png",
+        company: "Ligas Corporation",
+    },
+    {
+        id: 4,
+        name: "Emvee",
+        img: "/Emvee.png",
+        company: "Emvee",
+    },
+    {
+        id: 5,
+        name: "The One Technologies",
+        img: "/theonetech.png",
+        company: "The One Technologies",
+    },
+    {
+        id: 6,
         name: "Unified Mentor",
         img: "/UnifiedMentor.png",
         company: "Unified Mentor",
     },
     {
-        id: 4,
+        id: 7,
         name: "Afame Technology",
         img: "/Afame.png",
         company: "Afame Technology",
@@ -157,21 +182,21 @@ export const navItems = [
     export const workExperience = [
     {
         id: 1,
-        title: "Web Development Intern",
+        title: "Full Stack Web Development",
         desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity at Unifiend Mentor and Afame Technology.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 2,
-        title: "Full Stack Web Developer",
-        desc: "Designed and developed Web app for both iOS & Android platforms with the help of PaceDream team.",
+        title: "Business Development Executive",
+        desc: "Focused on lead generation, client acquisition, and crafting strategic business proposals to drive revenue growth and foster strong client relationships.",
         className: "md:col-span-2",
         thumbnail: "/exp2.svg",
     },
     {
         id: 3,
-        title: "Freelance Web Dev Project",
+        title: "Freelance Designer and Developer",
         desc: "Led the dev of a web app for a client, from initial concept to deployment using latest technologies.",
         className: "md:col-span-2",
         thumbnail: "/exp3.svg",
