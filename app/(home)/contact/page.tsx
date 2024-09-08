@@ -29,9 +29,12 @@ const Contact: React.FC = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleDateChange = (date: Date) => {
-    setFormData({ ...formData, appointment: date });
+  const handleDateChange = (date: Date | null) => {
+    if (date) {
+      setFormData({ ...formData, appointment: date });
+    }
   };
+  
 
   const validateForm = () => {
     const { firstName, lastName, email, phone, message } = formData;
