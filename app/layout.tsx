@@ -48,7 +48,7 @@ export default function RootLayout({
   return (
     <html lang="en" className='dark' suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/WebLogo.png" sizes="any" />
+        <link rel="icon" href="/WebLogo.ico" sizes="any" />
       </head>
       <body className={inter.className}>
         <Providers>
