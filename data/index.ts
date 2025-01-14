@@ -87,19 +87,19 @@ export const navItems = [
     },
     {
         id: 3,
-        title: "Tetris Game",
-        des: "Puzzle Game.",
-        img: "/p3.jpeg",
+        title: "Task Free UK",
+        des: "Call Management Services.",
+        img: "/project3.png",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        href: "https://tetris-game-theta.vercel.app",
+        href: "https://taskfree.co.uk/",
     },
     {
         id: 4,
-        title: "ZeeCare",
-        des: "Hospital Operation Scheduler.",
-        img: "/p4.png",
+        title: "VernSense AI",
+        des: "Data Extraction & Automation.",
+        img: "/project4.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        href: "https://hospital-operation-management.vercel.app",
+        href: "https://vernsense.tech/",
     },
 ];
 
@@ -132,6 +132,27 @@ export const navItems = [
         title: "Founder of VernSense AI",
         profile: "/profile4.jpeg"
     },
+    {
+        quote:
+        "Working with sahil was fantastic! They turned my Figma design into a flawless React-based website and optimized it for SEO, boosting our online presence. Their professionalism and attention to detail were top-notch. Highly recommended!",
+        name: "Sajan Thapa",
+        title: "Chief Executive Officer of Task Free",
+        profile: "/profile5.png"
+    },
+    {
+        quote:
+        "I’m thrilled with the landing page sahil created for me! Their expertise in Next.js and Tailwind CSS resulted in a user-friendly and visually stunning design that perfectly showcases my work and services. The added SEO optimization has significantly boosted my online visibility. Highly recommend their services!",
+        name: "Kushagra Shrivastava",
+        title: "Discord Community Manager",
+        profile: "/profile6.png"
+    },
+    {
+        quote:
+        "Collaborating with Sahil was an outstanding experience! They flawlessly converted 25 pages of Figma designs into pixel-perfect React code, maintaining every detail with precision. Their dedication to quality and efficiency made a complex project seamless. I highly recommend their expertise!",
+        name: "Ajay Solanki",
+        title: "CoFounder /Chief Technology Officer of Innovation Hacks AI",
+        profile: "/profile7.png"
+    },
 ];
 
 export const companies = [
@@ -161,21 +182,21 @@ export const companies = [
     },
     {
         id: 5,
-        name: "The One Technologies",
-        img: "/theonetech.png",
-        company: "The One Technologies",
+        name: "Task Free UK",
+        img: "/Taskfree.ICO",
+        company: "TaskFree UK",
     },
     {
         id: 6,
-        name: "Unified Mentor",
-        img: "/UnifiedMentor.png",
-        company: "Unified Mentor",
+        name: "Protonic God",
+        img: "/protonicgod.svg",
+        company: "Protonic God",
     },
     {
         id: 7,
-        name: "Afame Technology",
-        img: "/Afame.png",
-        company: "Afame Technology",
+        name: "Innovation Hack AI",
+        img: "/c7.jpeg",
+        company: "Innovation hack AI",
     },
 ];
 
@@ -183,28 +204,28 @@ export const companies = [
     {
         id: 1,
         title: "Full Stack Web Development",
-        desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity at Unifiend Mentor and Afame Technology.",
+        desc: "WordPress | Shopify | React.js | Next.js | TailwindCSS | Bootstrap | Node.js | Express.js | MongoDB | MySQL",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 2,
-        title: "Business Development Executive",
-        desc: "Focused on lead generation, client acquisition, and crafting strategic business proposals to drive revenue growth and foster strong client relationships.",
+        title: "Digital Marketing",
+        desc: "Pay-Per-Click (PPC) Advertising | Content Marketing | Social Media Marketing (SMM) | Email Marketing | Influencer Marketing",
         className: "md:col-span-2",
         thumbnail: "/exp2.svg",
     },
     {
         id: 3,
-        title: "Freelance Designer and Developer",
-        desc: "Led the dev of a web app for a client, from initial concept to deployment using latest technologies.",
+        title: "UI/UX Designer and Developer",
+        desc: "Webflow | Figma | Canva | Adobe | Web Design | Landing Page Design | Logo Design | Instagram & Facebook Post Design",
         className: "md:col-span-2",
         thumbnail: "/exp3.svg",
     },
     {
         id: 4,
-        title: "Lead MERN Stack Developer",
-        desc: "Developed and maintained user-facing features using MERN technologies.",
+        title: "Search Enginer Optimization (SEO)",
+        desc: "On-page SEO | Off-page SEO | Technical SEO",
         className: "md:col-span-2",
         thumbnail: "/exp4.svg",
     },
