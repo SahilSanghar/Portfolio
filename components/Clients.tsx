@@ -1,6 +1,8 @@
 import React from 'react'
 import { InfiniteMovingCards } from './ui/InfiniteMovingCards'
 import { companies, testimonials } from '@/data'
+import MagicButton from './ui/MagicButton'
+import Link from 'next/link'
 
 const Clients = () => {
 return (
@@ -34,6 +36,13 @@ return (
                     ))}
                 </div>
         </div>
+        <Link href="/testimonial" className="flex justify-center">
+            <MagicButton
+                title="View All Testimonials"
+                icon=""
+                position="right"
+            />
+        </Link>
     </div>
 )
 }

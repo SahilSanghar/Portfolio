@@ -42,7 +42,7 @@ const Hero = () => {
                 Hi! I&apos;m Sahil, Freelance Web Designer and Developer.
             </p>
 
-            <a href="#about">
+            <a href="https://calendly.com/sangharsahil/discussion" target="_blank">
                 <MagicButton
                     title="Book an appointment"
                     icon={<FaLocationArrow />}

@@ -1,7 +1,8 @@
 export const navItems = [
+    { name: "Home", link: "/" },
     { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Projects", link: "/projects" },
+    { name: "Testimonials", link: "/testimonial" },
     { name: "Contact", link: "#contact" },
 ];
 
@@ -58,7 +59,7 @@ export const navItems = [
     },
     {
         id: 6,
-        title: "Do you want to start a project together?",
+        title: "Let's start a project together!",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
@@ -152,6 +153,27 @@ export const navItems = [
         name: "Ajay Solanki",
         title: "CoFounder /Chief Technology Officer of Innovation Hacks AI",
         profile: "/profile7.png"
+    },
+    {
+        quote:
+        "Sahil was great to work with. He helped us migrate our entire WooCommerce store from one WordPress site to another, including over 70 products — all within just 3 days. He handled everything from start to finish with a lot of care and professionalism. What I really appreciated was how smooth and hassle-free he made the whole process. He was always available for quick updates, understood our needs well, and delivered exactly what we needed. Would definitely work with him again.",
+        name: "Himanshu Jain",
+        title: "CoFounder of Gaincafe Technologies ",
+        profile: "/himanshu-jain.webp"
+    },
+    {
+        quote:
+        "Sahil has been a fantastic partner in getting our website up and running. He built our Shopify site from scratch — handling everything from design to development — and has continued to manage and improve it along the way. His understanding of both the technical side and the user experience really helped shape the site into something we’re proud of. He’s reliable, easy to work with, and always brings a can-do attitude. Highly recommended!",
+        name: "Robin M",
+        title: "Founder of Conor Australia",
+        profile: "/Robin.webp"
+    },
+    {
+        quote:
+        "We have the pleasure of working with Sahil Sanghar in regard to our website evolution. The original website had limited functionality and was very static with little to no scope for modernisation. Sahil has worked patiently with us to guide and implement features in the back-end that enable us to learn and bring the Website forwards in a more contemporary way. As a small business having a fast and efficient resource for Web support is valuable and we will continue to work with Sahil as we grow.",
+        name: "Heath Parkin",
+        title: "Founder of Hykk Solutions Limited",
+        profile: "/heath.webp"
     },
 ];
 
