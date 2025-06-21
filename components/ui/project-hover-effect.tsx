@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { cn } from "@/utils/cn";
+import { cn } from "@/lib/utils";
 
 export const ProjectHoverEffect = ({
   items,
@@ -15,7 +15,12 @@ export const ProjectHoverEffect = ({
   className?: string;
 }) => {
   return (
-    <div className={cn("grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6", className)}>
+    <div
+      className={cn(
+        "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6",
+        className
+      )}
+    >
       {items.map((item, idx) => (
         <a
           key={idx}

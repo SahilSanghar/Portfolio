@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-:root {
+  :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
 
@@ -33,9 +33,9 @@
     --ring: 240 10% 3.9%;
 
     --radius: 0.5rem;
-}
+  }
 
-.dark {
+  .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
 
@@ -63,50 +63,23 @@
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
-}
+  }
 }
 
 @layer base {
   * {
     @apply border-border !scroll-smooth;
-}
-body {
+  }
+  body {
     @apply bg-background text-foreground;
-}
-button {
+  }
+  button {
     @apply active:outline-none;
-}
+  }
 }
 
 @layer utilities {
-.heading {
+  .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
-}
-
-.black-gradient {
-    background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
-}
-}
-
-.toast-container {
-    --toastify-toast-background-color: #5a2d81; 
-    --toastify-toast-color: #ffffff;
-}
-
-.Toastify__toast--default {
-    background-color: var(--toastify-toast-background-color);
-    color: var(--toastify-toast-color);
-}
-
-.Toastify__toast-body {
-    color: var(--toastify-toast-color);
-}
-
-/* Custom datepicker styles */
-.react-datepicker__month-container {
-    background-color: #06091f;
-}
-
-.react-datepicker__day {
-    color: aliceblue !important;
+  }
 }

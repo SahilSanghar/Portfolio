@@ -1,5 +1,5 @@
-"use client"
-import { cn } from "@/utils/cn";
+"use client";
+import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
@@ -20,10 +20,7 @@ export const HoverEffect = ({
 
   return (
     <div
-      className={cn(
-        "grid grid-cols-1 md:grid-cols-2 gap-4 py-10",
-        className
-      )}
+      className={cn("grid grid-cols-1 md:grid-cols-2 gap-4 py-10", className)}
     >
       {items.map((item, idx) => (
         <div
